@@ -1,7 +1,7 @@
 {
   "name": "block-cursor2",
   "main": "./lib/block-cursor",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Fancy cursor custimization forked from olmokramer/atom-block-cursor.",
   "keywords": [
     "ui",
@@ -12,6 +12,5 @@
   "engines": {
     "atom": ">=1.13.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
