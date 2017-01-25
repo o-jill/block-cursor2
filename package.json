@@ -13,6 +13,5 @@
     "atom": ">=1.13.0"
   },
   "dependencies": {
-    "_commen-tout": "object-assign-shim\": \"^1.0.0"
   }
 }
