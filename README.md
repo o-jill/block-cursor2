@@ -1,4 +1,4 @@
-![Block cursor](https://raw.githubusercontent.com/olmokramer/atom-block-cursor/master/block-cursor.png)
+![Block cursor](https://raw.githubusercontent.com/o-jill/block-cursor2/master/block-cursor.png)
 
 ## config
 
@@ -41,9 +41,9 @@ The background color of the cursor in blink-on or blink-off state.
 
 The border style of the cursor in blink-on or blink-off state. Can be one of the following:
 
-* `bordered-box` <br>![Block cursor](https://raw.githubusercontent.com/olmokramer/atom-block-cursor/master/cursor-bordered-box.png)
-* `i-beam` <br>![Block cursor](https://raw.githubusercontent.com/olmokramer/atom-block-cursor/master/cursor-i-beam.png)
-* `underline` <br>![Block cursor](https://raw.githubusercontent.com/olmokramer/atom-block-cursor/master/cursor-underline.png)
+* `bordered-box` <br>![Block cursor](https://raw.githubusercontent.com/o-jill/block-cursor2/master/cursor-bordered-box.png)
+* `i-beam` <br>![Block cursor](https://raw.githubusercontent.com/o-jill/block-cursor2/master/cursor-i-beam.png)
+* `underline` <br>![Block cursor](https://raw.githubusercontent.com/o-jill/block-cursor2/master/cursor-underline.png)
 * `none`
 
 ### blinkOn.borderColor & blinkOff.borderColor
@@ -58,7 +58,7 @@ The border width of the cursor in blink-on or blink-off state.
 
 Pulse effect that fades the cursor from blink-on to blink-off state (instead of blinking). Set to 0 to disable.
 
-![Block cursor](https://raw.githubusercontent.com/olmokramer/atom-block-cursor/master/cursor-pulse.gif)
+![Block cursor](https://raw.githubusercontent.com/o-jill/block-cursor2/master/cursor-pulse.gif)
 
 ### cursorLineFix
 
@@ -68,7 +68,7 @@ The `cursorLineFix` is currently ignored due to the new tile rendering of the ed
 
 You can also add this to your `styles.less` to disable the line highlight:
 ```less
-atom-text-editor::shadow .lines .line.cursor-line {
+atom-text-editor.editor .lines .line.cursor-line {
   background-color: transparent;
 }
 ```
@@ -149,8 +149,10 @@ Have other neat ideas for cursor customization? Found a bug?
 2. :rocket: Make awesome things happen
 3. Create a pull request
 
-Or [create a new issue](https://github.com/olmokramer/atom-block-cursor/issues/new) at the repository if you can't do it yourself.
+Or [create a new issue](https://github.com/o-jill/block-cursor2/issues/new) at the repository if you can't do it yourself.
 
 ## copyright & license
 
 &copy; 2015 Olmo Kramer <br> [MIT license](LICENSE.md)
+
+&copy; 2017 Nob Aoki  <br> [MIT license](LICENSE.md)

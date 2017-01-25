@@ -1,18 +1,18 @@
 {
-  "name": "block-cursor",
+  "name": "block-cursor2",
   "main": "./lib/block-cursor",
-  "version": "0.13.1",
-  "description": "Fancy cursor custimization",
+  "version": "0.0.0",
+  "description": "Fancy cursor custimization forked from olmokramer/atom-block-cursor.",
   "keywords": [
     "ui",
     "cursor"
   ],
-  "repository": "https://github.com/olmokramer/atom-block-cursor",
+  "repository": "https://github.com/o-jill/block-cursor2",
   "license": "MIT",
   "engines": {
-    "atom": ">=0.209.0"
+    "atom": ">=1.13.0"
   },
   "dependencies": {
-    "object-assign-shim": "^1.0.0"
+    "_commen-tout": "object-assign-shim\": \"^1.0.0"
   }
 }
